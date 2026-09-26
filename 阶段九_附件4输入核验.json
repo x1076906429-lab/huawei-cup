@@ -1,0 +1,774 @@
+{
+  "generated_at": "2026-09-26T14:29:22",
+  "source": "data_original\\E题数据\\附件4-可解释专项视频样本与特征文件\\附件4-可解释专项视频样本与特征文件\\对齐版本",
+  "version_used": "对齐版本",
+  "n_samples": 20,
+  "sample_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
+  "sample_id_field": "pkl 内 'id' 字段（01–20）",
+  "fields_present": [
+    "raw_text",
+    "audio(50,74)",
+    "vision(50,35)",
+    "id",
+    "text(50,768)",
+    "text_bert(3,50)"
+  ],
+  "fields_absent": [
+    "classification_labels",
+    "regression_labels"
+  ],
+  "label_read": false,
+  "has_precomputed_text": true,
+  "text_reconstruction_needed": false,
+  "text_note": "附件4 自带 768 维 text 字段，直接使用；无需像附件3 那样用 BERT 重建。",
+  "shapes_ok": true,
+  "videos_found": 20,
+  "video_meta": {
+    "1": {
+      "file": "01.mp4",
+      "dur_s": 9.0,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 824021
+    },
+    "2": {
+      "file": "02.mp4",
+      "dur_s": 3.49,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 142336
+    },
+    "3": {
+      "file": "03.mp4",
+      "dur_s": 9.66,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 2973584
+    },
+    "4": {
+      "file": "04.mp4",
+      "dur_s": 6.99,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 1200845
+    },
+    "5": {
+      "file": "05.mp4",
+      "dur_s": 6.1,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 836064
+    },
+    "6": {
+      "file": "06.mp4",
+      "dur_s": 8.31,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 638126
+    },
+    "7": {
+      "file": "07.mp4",
+      "dur_s": 21.35,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 3559307
+    },
+    "8": {
+      "file": "08.mp4",
+      "dur_s": 5.09,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 1026677
+    },
+    "9": {
+      "file": "09.mp4",
+      "dur_s": 5.04,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 741504
+    },
+    "10": {
+      "file": "10.mp4",
+      "dur_s": 9.94,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 783573
+    },
+    "11": {
+      "file": "11.mp4",
+      "dur_s": 5.8,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 672655
+    },
+    "12": {
+      "file": "12.mp4",
+      "dur_s": 13.01,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 2233107
+    },
+    "13": {
+      "file": "13.mp4",
+      "dur_s": 8.68,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 640,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 262575
+    },
+    "14": {
+      "file": "14.mp4",
+      "dur_s": 10.35,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 2257001
+    },
+    "15": {
+      "file": "15.mp4",
+      "dur_s": 7.33,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 705745
+    },
+    "16": {
+      "file": "16.mp4",
+      "dur_s": 3.11,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 480,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 226884
+    },
+    "17": {
+      "file": "17.mp4",
+      "dur_s": 9.67,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 1951911
+    },
+    "18": {
+      "file": "18.mp4",
+      "dur_s": 18.81,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 2262931
+    },
+    "19": {
+      "file": "19.mp4",
+      "dur_s": 13.68,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 1280,
+      "h": 720,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 1091162
+    },
+    "20": {
+      "file": "20.mp4",
+      "dur_s": 10.95,
+      "fps": 30.0,
+      "n_frames": null,
+      "w": 360,
+      "h": 360,
+      "has_audio": true,
+      "has_video": true,
+      "size_bytes": 971427
+    }
+  },
+  "bucket_to_second_mapping": {
+    "rule": "桶 i ∈ [v0..v1] 覆盖 [ (i-v0)/L·dur , (i-v0+1)/L·dur )，L = v1-v0+1",
+    "verified_by": "阶段九_桶位映射检验.py",
+    "evidence": "8 个样本中 7 个判定「有效跨度对应整段视频」、0 个支持「48 桶位均匀铺满」替代口径、1 个不明",
+    "nature": "重建的近似时间，不是原始时间戳"
+  },
+  "per_sample": [
+    {
+      "sample_id": "01",
+      "file": "01.pkl",
+      "video": "01.mp4",
+      "duration_s": 9.0,
+      "text_observed": 24,
+      "audio_valid": 22,
+      "audio_observed": 22,
+      "vision_valid": 22,
+      "vision_observed": 22,
+      "audio_bucket_range": [
+        1,
+        22
+      ],
+      "vision_bucket_range": [
+        1,
+        22
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "02",
+      "file": "02.pkl",
+      "video": "02.mp4",
+      "duration_s": 3.49,
+      "text_observed": 21,
+      "audio_valid": 19,
+      "audio_observed": 19,
+      "vision_valid": 19,
+      "vision_observed": 19,
+      "audio_bucket_range": [
+        1,
+        19
+      ],
+      "vision_bucket_range": [
+        1,
+        19
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "03",
+      "file": "03.pkl",
+      "video": "03.mp4",
+      "duration_s": 9.66,
+      "text_observed": 35,
+      "audio_valid": 33,
+      "audio_observed": 33,
+      "vision_valid": 33,
+      "vision_observed": 33,
+      "audio_bucket_range": [
+        1,
+        33
+      ],
+      "vision_bucket_range": [
+        1,
+        33
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "04",
+      "file": "04.pkl",
+      "video": "04.mp4",
+      "duration_s": 6.99,
+      "text_observed": 28,
+      "audio_valid": 26,
+      "audio_observed": 26,
+      "vision_valid": 26,
+      "vision_observed": 26,
+      "audio_bucket_range": [
+        1,
+        26
+      ],
+      "vision_bucket_range": [
+        1,
+        26
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "05",
+      "file": "05.pkl",
+      "video": "05.mp4",
+      "duration_s": 6.1,
+      "text_observed": 17,
+      "audio_valid": 15,
+      "audio_observed": 15,
+      "vision_valid": 15,
+      "vision_observed": 15,
+      "audio_bucket_range": [
+        1,
+        15
+      ],
+      "vision_bucket_range": [
+        1,
+        15
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "06",
+      "file": "06.pkl",
+      "video": "06.mp4",
+      "duration_s": 8.31,
+      "text_observed": 37,
+      "audio_valid": 35,
+      "audio_observed": 35,
+      "vision_valid": 35,
+      "vision_observed": 35,
+      "audio_bucket_range": [
+        1,
+        35
+      ],
+      "vision_bucket_range": [
+        1,
+        35
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "07",
+      "file": "07.pkl",
+      "video": "07.mp4",
+      "duration_s": 21.35,
+      "text_observed": 50,
+      "audio_valid": 48,
+      "audio_observed": 48,
+      "vision_valid": 48,
+      "vision_observed": 48,
+      "audio_bucket_range": [
+        1,
+        48
+      ],
+      "vision_bucket_range": [
+        1,
+        48
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "08",
+      "file": "08.pkl",
+      "video": "08.mp4",
+      "duration_s": 5.09,
+      "text_observed": 13,
+      "audio_valid": 11,
+      "audio_observed": 11,
+      "vision_valid": 11,
+      "vision_observed": 11,
+      "audio_bucket_range": [
+        1,
+        11
+      ],
+      "vision_bucket_range": [
+        1,
+        11
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "09",
+      "file": "09.pkl",
+      "video": "09.mp4",
+      "duration_s": 5.04,
+      "text_observed": 20,
+      "audio_valid": 18,
+      "audio_observed": 18,
+      "vision_valid": 18,
+      "vision_observed": 18,
+      "audio_bucket_range": [
+        1,
+        18
+      ],
+      "vision_bucket_range": [
+        1,
+        18
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "10",
+      "file": "10.pkl",
+      "video": "10.mp4",
+      "duration_s": 9.94,
+      "text_observed": 32,
+      "audio_valid": 30,
+      "audio_observed": 30,
+      "vision_valid": 30,
+      "vision_observed": 30,
+      "audio_bucket_range": [
+        1,
+        30
+      ],
+      "vision_bucket_range": [
+        1,
+        30
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "11",
+      "file": "11.pkl",
+      "video": "11.mp4",
+      "duration_s": 5.8,
+      "text_observed": 16,
+      "audio_valid": 14,
+      "audio_observed": 14,
+      "vision_valid": 14,
+      "vision_observed": 14,
+      "audio_bucket_range": [
+        1,
+        14
+      ],
+      "vision_bucket_range": [
+        1,
+        14
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "12",
+      "file": "12.pkl",
+      "video": "12.mp4",
+      "duration_s": 13.01,
+      "text_observed": 44,
+      "audio_valid": 42,
+      "audio_observed": 42,
+      "vision_valid": 42,
+      "vision_observed": 42,
+      "audio_bucket_range": [
+        1,
+        42
+      ],
+      "vision_bucket_range": [
+        1,
+        42
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "13",
+      "file": "13.pkl",
+      "video": "13.mp4",
+      "duration_s": 8.68,
+      "text_observed": 32,
+      "audio_valid": 30,
+      "audio_observed": 30,
+      "vision_valid": 0,
+      "vision_observed": 0,
+      "audio_bucket_range": [
+        1,
+        30
+      ],
+      "vision_bucket_range": null,
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 1
+      }
+    },
+    {
+      "sample_id": "14",
+      "file": "14.pkl",
+      "video": "14.mp4",
+      "duration_s": 10.35,
+      "text_observed": 37,
+      "audio_valid": 35,
+      "audio_observed": 35,
+      "vision_valid": 35,
+      "vision_observed": 35,
+      "audio_bucket_range": [
+        1,
+        35
+      ],
+      "vision_bucket_range": [
+        1,
+        35
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "15",
+      "file": "15.pkl",
+      "video": "15.mp4",
+      "duration_s": 7.33,
+      "text_observed": 23,
+      "audio_valid": 21,
+      "audio_observed": 21,
+      "vision_valid": 21,
+      "vision_observed": 21,
+      "audio_bucket_range": [
+        1,
+        21
+      ],
+      "vision_bucket_range": [
+        1,
+        21
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "16",
+      "file": "16.pkl",
+      "video": "16.mp4",
+      "duration_s": 3.11,
+      "text_observed": 13,
+      "audio_valid": 11,
+      "audio_observed": 11,
+      "vision_valid": 11,
+      "vision_observed": 11,
+      "audio_bucket_range": [
+        1,
+        11
+      ],
+      "vision_bucket_range": [
+        1,
+        11
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "17",
+      "file": "17.pkl",
+      "video": "17.mp4",
+      "duration_s": 9.67,
+      "text_observed": 26,
+      "audio_valid": 24,
+      "audio_observed": 24,
+      "vision_valid": 24,
+      "vision_observed": 24,
+      "audio_bucket_range": [
+        1,
+        24
+      ],
+      "vision_bucket_range": [
+        1,
+        24
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "18",
+      "file": "18.pkl",
+      "video": "18.mp4",
+      "duration_s": 18.81,
+      "text_observed": 50,
+      "audio_valid": 48,
+      "audio_observed": 48,
+      "vision_valid": 48,
+      "vision_observed": 48,
+      "audio_bucket_range": [
+        1,
+        48
+      ],
+      "vision_bucket_range": [
+        1,
+        48
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "19",
+      "file": "19.pkl",
+      "video": "19.mp4",
+      "duration_s": 13.68,
+      "text_observed": 41,
+      "audio_valid": 39,
+      "audio_observed": 39,
+      "vision_valid": 39,
+      "vision_observed": 39,
+      "audio_bucket_range": [
+        1,
+        39
+      ],
+      "vision_bucket_range": [
+        1,
+        39
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    },
+    {
+      "sample_id": "20",
+      "file": "20.pkl",
+      "video": "20.mp4",
+      "duration_s": 10.95,
+      "text_observed": 45,
+      "audio_valid": 43,
+      "audio_observed": 43,
+      "vision_valid": 43,
+      "vision_observed": 43,
+      "audio_bucket_range": [
+        1,
+        43
+      ],
+      "vision_bucket_range": [
+        1,
+        43
+      ],
+      "text_token100": 0,
+      "whole_modality_missing": {
+        "text": 0,
+        "audio": 0,
+        "vision": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "config_version": "2026-09-26-stage8-explain-frozen-1",
+  "frozen_at": "2026-09-26",
+  "stage": "阶段八（问题三解释方法与验证）",
+  "model_binding": {
+    "stage5_frozen_model": "static_concat",
+    "seed": 20260924,
+    "param_count": 81540,
+    "weights_sha256_tensor_level": "85b67020f5a08d928ffc0534fb62c4f9ebba650759ecd6baf24c2c56ee9a5bdd",
+    "weights_sha256_file_level": "04882ff7fbd27bfd5e255bf9f372e9b7c77d4fa84906d28bf4307da75faa8e79",
+    "sha256_definition_note": "张量级 = state_dict 按 key 排序后拼接张量字节；文件级 = 整个 .pt 文件的字节（sha256sum）。两者是同一份文件的两种算法，核对时必须按同一层级比较。",
+    "standardizer": "outputs/阶段五输出/阶段五_标准化参数.npz（未重新拟合）",
+    "weights_modified": false
+  },
+  "explanation_method": {
+    "name": "occlusion",
+    "name_cn": "遮蔽法",
+    "levels": ["modality", "intra_modality_position"],
+    "deterministic_inference": true,
+    "inference_settings": "model.eval() + torch.no_grad()；无训练、无调参、无阈值搜索"
+  },
+  "baseline": {
+    "modality_level": {
+      "definition": "把目标模态的 observed_mask 整条置 False，并把该模态输入置零，其余输入保持不变",
+      "consistent_with": "阶段五缺失实验 M1/M2/M3 的同一操作"
+    },
+    "position_level": {
+      "text": "单位置遮蔽（单个词元位置），步长 1",
+      "audio": "连续窗口遮蔽，W = 5 个桶位，步长 1",
+      "vision": "连续窗口遮蔽，W = 5 个桶位，步长 1"
+    },
+    "eligible_units": "只统计该位置在该样本中 observed_mask = True 的单元"
+  },
+  "contribution_definition": {
+    "classification": "Δcls_m = p_full(ŷ) − p_{−m}(ŷ)，ŷ = 完整输入下的预测类别（固定不随遮蔽变化）",
+    "regression": "Δint_m = sign(reg_full) × (reg_full − reg_{−m})",
+    "sign_convention": "正值 = 支持当前输出；负值 = 抑制当前输出",
+    "normalization": "Δ̃_m = Δ_m / Σ_k |Δ_k|（分母 < 1e-9 时整组置 0）；原值同时保留",
+    "main_modality": "argmax_m |Δcls_m|"
+  },
+  "key_evidence_rule": {
+    "score": "|Δcls| 降序",
+    "top_k": 5,
+    "top_k_sensitivity_checked": [3, 5],
+    "text_required_fields": ["start_pos", "token", "context_pm3_tokens", "is_stopword"],
+    "audio_vision_required_fields": ["start_pos", "end_pos", "rel_pos"],
+    "rel_pos_definition": "桶位 / 48；仅为片段内相对位置示意，不是时间",
+    "stopword_flag_required": true,
+    "rationale_for_context": "单位置遮蔽在文本上常落到高频功能词，必须连同 ±3 词元上下文判读"
+  },
+  "position_mapping": {
+    "text": {"position": "token_index_1_48", "content": "bert-base-uncased 词元字符串", "seconds": "not_applicable", "frame": "not_applicable"},
+    "audio": {"position": "bucket_index_1_48", "content": "not_viewable", "seconds": "NOT_VIEWABLE（附件2 无时长字段）", "frame": "not_applicable"},
+    "vision": {"position": "bucket_index_1_48", "content": "not_viewable", "seconds": "NOT_VIEWABLE（附件2 无时长字段）", "frame": "NOT_VIEWABLE（附件2 无帧率字段）"},
+    "attachment4_extension": {
+      "reserved_fields": ["start_sec", "end_sec", "frame_index", "video_clip_id"],
+      "note": "附件4 带原始视频，阶段九填充这些字段；附件2 的结果不回填"
+    }
+  },
+  "output_fields": {
+    "contribution_csv": ["sample_id", "y_true_class", "y_true_reg", "pred_class", "prob_neg", "prob_neu", "prob_pos", "pred_reg", "pred_prob_at_pred", "主要模态", "text_Δcls_raw", "audio_Δcls_raw", "vision_Δcls_raw", "text_Δcls_norm", "audio_Δcls_norm", "vision_Δcls_norm", "text_Δint_raw", "audio_Δint_raw", "vision_Δint_raw", "text_Δint_norm", "audio_Δint_norm", "vision_Δint_norm"],
+    "evidence_csv": ["sample_id", "modality", "granularity", "rank", "start_pos", "end_pos", "token", "上下文(±3词元)", "是否功能词", "rel_pos", "Δcls", "方向", "可回看", "秒数", "帧号"],
+    "fidelity_csv": ["sample_id", "K", "解释模态", "pred_class", "pred_prob_at_pred", "ΔP_topK", "ΔP_random_mean", "ΔP_差(重要-随机)", "预测翻转_topK", "预测翻转率_random", "Δ|强度|_topK", "Δ|强度|_random"],
+    "stability_csv": ["sample_id", "audio_spearman_shift-1", "audio_spearman_shift+1", "vision_spearman_shift-1", "vision_spearman_shift+1", "audio_top5_overlap_shift-1", "audio_top5_overlap_shift+1", "vision_top5_overlap_shift-1", "vision_top5_overlap_shift+1", "扰动σ0.01_符号一致率", "扰动σ0.1_符号一致率", "扰动σ0.5_符号一致率", "扰动σ0.5_排名Spearman"],
+    "sparsity_csv": ["sample_id", "文本_可评估词元数", "文本_保留关键词元数", "文本_关键词元占比", "文本_关键词元是否分散", "音频_可评估窗口数", "音频_保留关键窗口数", "音频_关键窗口占比", "音频_关键窗口是否分散", "音频_秒数可回看", "视觉_可评估窗口数", "视觉_保留关键窗口数", "视觉_关键窗口占比", "视觉_关键窗口是否分散", "视觉_秒数可回看"]
+  },
+  "validation_summary": {
+    "dataset": "附件2 验证集，n = 728",
+    "fidelity": {
+      "K=3": {"n_valid": 713, "dP_top": 0.0354, "dP_random": -0.0031, "paired_diff": 0.0385, "wilcoxon_p": 5.85e-56, "flip_top_rate": 0.0673, "flip_random_rate": 0.0673},
+      "K=5": {"n_valid": 703, "dP_top": 0.0373, "dP_random": -0.0053, "paired_diff": 0.0426, "wilcoxon_p": 1.33e-48, "flip_top_rate": 0.074, "flip_random_rate": 0.0768},
+      "conclusion": "置信度层面忠实；决策层面翻转由样本是否处于边界决定，非片段重要性决定"
+    },
+    "stability": {
+      "window_shift_spearman": [0.9532, 0.9993],
+      "window_shift_top5_overlap": [0.9173, 0.9985],
+      "noise_sign_agreement": {"0.01": 0.9998, "0.1": 0.9957, "0.5": 0.9679},
+      "noise_rank_spearman": {"0.01": 0.9995, "0.1": 0.9921, "0.5": 0.9462},
+      "is_training_seed_stability": false,
+      "note": "本项为模型解释稳定性（同一权重下的输入扰动/窗口平移），不是跨训练种子稳定性"
+    },
+    "sparsity": {"text_key_tokens_mean": 4.98, "audio_key_windows_mean": 4.79, "vision_key_windows_mean": 4.55},
+    "viewability": {"text": "fully_viewable", "audio_vision_seconds": "not_viewable_on_attachment2"}
+  },
+  "discipline": {
+    "method_and_thresholds_fixed_on": "附件2 验证集",
+    "attachment3_predictions_read": false,
+    "attachment4_used_for": "none",
+    "stage5_frozen_weights_modified": false,
+    "supervised_metrics_reported_by_explanation": false
+  },
+  "frozen_constants": {
+    "window_length": 5,
+    "top_k": 5,
+    "noise_levels": [0.01, 0.1, 0.5],
+    "n_random_control": 10,
+    "random_seed": 20260926
+  }
+}

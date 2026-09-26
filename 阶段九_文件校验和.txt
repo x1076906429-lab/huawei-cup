@@ -1,0 +1,355 @@
+# 阶段九 文件校验和（SHA256，文件级）
+# 生成时间：2026-09-26 15:24:41
+# 冻结模型张量级指纹：85b67020f5a08d928ffc0534fb62c4f9ebba650759ecd6baf24c2c56ee9a5bdd
+# 冻结模型文件级指纹：04882ff7fbd27bfd5e255bf9f372e9b7c77d4fa84906d28bf4307da75faa8e79
+# 状态：阶段九已完成——机器预测与解释、AI 辅助回看、人工确认（2026-09-26，20/20 条确认）。
+#       sample_id 形如 "01"，读取须强制 dtype=str。
+
+52773c7f4ebc8d9b51a66fd0ace3b5616ac07f5e0ca77c500e3b9e29d92a111a  q3_attachment4_predictions_explanations.csv
+                                                                  19389 字节
+d52c38907545dc6cf8516170f12e5f80f0c28d21e200e55d1873235bca2e2f8b  人工回看材料/01/1_时间轴总览.png
+                                                                  788820 字节
+38740f303b9964a1bbfc57588c9ec4cfa3c3dd241f380805b71d3e8883d4ab10  人工回看材料/01/2_关键窗口放大.png
+                                                                  709595 字节
+7fd256d9350da16726b3708fc910b2d841d2e3931dc9712f0c62aeaedef41b86  人工回看材料/01/3_音频证据图.png
+                                                                  148208 字节
+439f219a19dc7a65534679248a81a3ede5cbc43051aac51660201f918dd4767d  人工回看材料/02/1_时间轴总览.png
+                                                                  491922 字节
+eac91274ecb8498fed68ff5525600eb01d0ff8543a9e790c231f3ef37c62e841  人工回看材料/02/2_关键窗口放大.png
+                                                                  457343 字节
+2d7909589b1f006b5bed9f25064e73b5e9fafe21d88f74ce86f78a06060c8ceb  人工回看材料/02/3_音频证据图.png
+                                                                  126637 字节
+681a9e16dd77d42696f5400128574813ea4f6770af7d9772b7a5ea3eef46f813  人工回看材料/03/1_时间轴总览.png
+                                                                  591376 字节
+98057db9fecc40ec8ad96b4fe7bb829514029b8ca07c9fe12b72e87e35e2eafc  人工回看材料/03/2_关键窗口放大.png
+                                                                  557957 字节
+43588edb0c909f04dd829cf9cc9ae611b0b6b7f6d7bfb4028672c000febceab2  人工回看材料/03/3_音频证据图.png
+                                                                  144013 字节
+8bc540e968ef2cff40c9eaaba57350f8ada6bd6af212e264575119b350433cc5  人工回看材料/04/1_时间轴总览.png
+                                                                  712278 字节
+264439d15db2b24ba9d6717ffc3a61a9c64c779d069a252f49995b91202320a8  人工回看材料/04/2_关键窗口放大.png
+                                                                  647768 字节
+c9aa636b95fb2991e328fa8668a145f2b2023f7d515d977ff3a59fb961581bb0  人工回看材料/04/3_音频证据图.png
+                                                                  141009 字节
+dfabc8b603ea1579c41279ec52e11f84d736ab1c4c75a91feaee623586ce95b1  人工回看材料/05/1_时间轴总览.png
+                                                                  829880 字节
+9dbd33b7cc217cfc147e8c3260cc712473bf962218aa5561f1d846ed8db57a78  人工回看材料/05/2_关键窗口放大.png
+                                                                  707330 字节
+eb8a0e0c4f8623104fbae6843976988555677b22987209040d5ff7b998e6883d  人工回看材料/05/3_音频证据图.png
+                                                                  124177 字节
+760e84f438beaf52f8ab43259de111976a9d9d830f6dd51584f887280c4ee617  人工回看材料/06/1_时间轴总览.png
+                                                                  1545215 字节
+f2217cb9b2c401e932677b5781735bafc9041e9e03092ac587eb908d0e7ffdf6  人工回看材料/06/2_关键窗口放大.png
+                                                                  1293519 字节
+acf9508acafa686bd46050322414fd749bc68047269d81064a19e3a33df53ba8  人工回看材料/06/3_音频证据图.png
+                                                                  137089 字节
+d173f650e874181b680512089eefcf970419eb13bca62b6419f2099020bb3190  人工回看材料/07/1_时间轴总览.png
+                                                                  735535 字节
+0f73f6a912bbaddba309723044fb139d2355c1212c5b62118f8ef802628477d0  人工回看材料/07/2_关键窗口放大.png
+                                                                  619301 字节
+f4f2e530744decfd431156ad2d03cd54eb88ab6b5acb2406aa22fa5885c914a3  人工回看材料/07/3_音频证据图.png
+                                                                  175942 字节
+5f0e0d1f46e2152200f966b5e55307d57389db5ce3a1cf6eeda5ef0662ab47e9  人工回看材料/08/1_时间轴总览.png
+                                                                  696625 字节
+38fb8872047aedee80f9512d887fa31fdff1af8a2fe4fe9f685def2b35fdb765  人工回看材料/08/2_关键窗口放大.png
+                                                                  674867 字节
+2c769c8e646369d4fe62863cdafab5bfc0a857ee248e25c5cfe3f844f94eae3d  人工回看材料/08/3_音频证据图.png
+                                                                  122267 字节
+292d6dbea91b8f1ab551012ffac4a6bf4f77b5536f43e29158450e4251ee41e6  人工回看材料/09/1_时间轴总览.png
+                                                                  1044647 字节
+e54b6aeb151f6351e4658f13f4785a8b28fdeb3aae9a074849ae4c2586deff4e  人工回看材料/09/2_关键窗口放大.png
+                                                                  779598 字节
+d6b2aa3aaea54ae559febde78040d8cd767ec83597e1490fa5b7a2f3d9333646  人工回看材料/09/3_音频证据图.png
+                                                                  120364 字节
+1755d2a2a8722cbce98b115a2bcd04db1897cfa8722a009fdf52ad82d43c387e  人工回看材料/10/1_时间轴总览.png
+                                                                  1127197 字节
+84e725bafee42b911c1d7ec663d9cb78147a60287143267adab9935b8afc01d0  人工回看材料/10/2_关键窗口放大.png
+                                                                  940952 字节
+9ee136003d8e480d7ee6854a61bd82ba97be58ac77fe2e5c5207d490a4997e50  人工回看材料/10/3_音频证据图.png
+                                                                  160271 字节
+591687ce153c30eb04d62e6f9078e0af8fc756492144b4fc38f11aab9699468e  人工回看材料/11/1_时间轴总览.png
+                                                                  1211619 字节
+24de508e61c42318c7c21fb75703a7a40d5e9936eff9155715db6ed0dfcfa602  人工回看材料/11/2_关键窗口放大.png
+                                                                  1044090 字节
+d180ec803be4739f14e809f2853e4fe7ebf7ceed3c44cff552b39489972a3ce5  人工回看材料/11/3_音频证据图.png
+                                                                  129332 字节
+c5523286d2f0ee4b571feb61518114e34a298dfbe5fdf8f7633f905c54328032  人工回看材料/12/1_时间轴总览.png
+                                                                  1078135 字节
+c2c30dbd287475622270a2943af4eba71da972d9795ef5268d3044802bc5b7d1  人工回看材料/12/2_关键窗口放大.png
+                                                                  902292 字节
+4e28603e6ecdca9dcaaf79d1c0b0eae740c7f4c9d074611883ba404951d5c6f8  人工回看材料/12/3_音频证据图.png
+                                                                  155586 字节
+aa6576e5f8f9e8cae4a5ffdb2f34f9a89c5843ca845d15ee600febab061ab327  人工回看材料/13/1_时间轴总览.png
+                                                                  660133 字节
+bab31255d7f493f26ad2ccdc216c28ea5b346ea15f9d685370099a662d5cd108  人工回看材料/13/2_关键窗口放大.png
+                                                                  35875 字节
+4a76a0d1c92083824fff2e582a3eca5e2e5b27750c806b2319d46e4e82211824  人工回看材料/13/3_音频证据图.png
+                                                                  138925 字节
+f97ce26de7f547d584bd0eed3cef5bc3ec8b6cd3fd87da15204ad0dee989b695  人工回看材料/14/1_时间轴总览.png
+                                                                  848688 字节
+8f25e8eed10b52217bdc7aff99d5aa4acea931576d1dd16410b97939c186f8e5  人工回看材料/14/2_关键窗口放大.png
+                                                                  651040 字节
+42ea7d94b0d5e824736a1744eae85dd4944153e0614a6e4fd27ea19c8b683a9b  人工回看材料/14/3_音频证据图.png
+                                                                  152655 字节
+cd6465bf958b70834672cd7037fe7da2afcfd5ece36e8987a61c6c9d11fc1e75  人工回看材料/15/1_时间轴总览.png
+                                                                  921977 字节
+8f1e318d1d65bae9cca2e64dc6603b844385c5c97591f1859ec6ac028a5a63c2  人工回看材料/15/2_关键窗口放大.png
+                                                                  819804 字节
+2638a2e208f8ef1442a208a13a17b01278a69207c2a93d32fb2c07e6a0027069  人工回看材料/15/3_音频证据图.png
+                                                                  146946 字节
+85681d6c82ce3e659cd53614562489bf2f86fdbb85b5baefc82344b7ecd6aa4e  人工回看材料/16/1_时间轴总览.png
+                                                                  751239 字节
+7ca42090d144790f3700da16b5a5b8a53229b1508286280863250f758cd52d2c  人工回看材料/16/2_关键窗口放大.png
+                                                                  707711 字节
+a8a7e05eff376c2c3096f6deb64cd6a77d68351a8da54337337150430e99ac56  人工回看材料/16/3_音频证据图.png
+                                                                  121145 字节
+cee821db525696fbd8ecf110ae0635169f819fcfbffbcfa2e8a1b02d166f796a  人工回看材料/17/1_时间轴总览.png
+                                                                  905388 字节
+21c08681e0003a010a58a71c9dc5f209059d7682064c072494e55ec6d9fcb9a2  人工回看材料/17/2_关键窗口放大.png
+                                                                  782325 字节
+a63d42927465877db93d531df9418781de7f294359cf57f4e132ff15b3c88516  人工回看材料/17/3_音频证据图.png
+                                                                  145028 字节
+248d35d42f0bd88200e25df5ba1f91a6adf4c7eee01ee406f9f49eb80d386eb9  人工回看材料/18/1_时间轴总览.png
+                                                                  1010981 字节
+e0e3d4bc675223865c25f2142b13da50021fd95ef9d0c136ab2c5149e83e6e0d  人工回看材料/18/2_关键窗口放大.png
+                                                                  855744 字节
+fcaf0c71386481376f22320fca84b68cf7bd560e55e9449c729aaead6262c2cf  人工回看材料/18/3_音频证据图.png
+                                                                  161739 字节
+7be088edf57d4d2ce695ea8c1dd4d415b715accea755f21d850f5d72fbd6289f  人工回看材料/19/1_时间轴总览.png
+                                                                  516189 字节
+2d1aa65f5fa1841ed8443605dc174fd51375deca281b63abc00043993f178755  人工回看材料/19/2_关键窗口放大.png
+                                                                  372596 字节
+6088917e382fa84c2e0829bd631d3466b7b6491e07e0d6d96447e5c300ff28d5  人工回看材料/19/3_音频证据图.png
+                                                                  155846 字节
+a2a55249894ec3f2af3b425ef6b56e731244723c7c16582c7a39d22919b242f1  人工回看材料/20/1_时间轴总览.png
+                                                                  1624043 字节
+e534a3485d60cd825d869ae8c46a655316c22fb2f93358b4e25491e2a5f3ae3c  人工回看材料/20/2_关键窗口放大.png
+                                                                  1344872 字节
+2a923b04c15856799402ff7ee821c73eb77feb336e4181c0f51dc6f49298d712  人工回看材料/20/3_音频证据图.png
+                                                                  154218 字节
+f5e350b3c71f1630aa6d2af7169bde16266321d74687b2d89ecd8b62fc6befba  人工智能回看材料/AI回看_01.png
+                                                                  1984137 字节
+7a93be303bafe3c29943aaf0fd5e0d9fb6e9f815e2e7c7e834ee0e0a10589cc6  人工智能回看材料/AI回看_02.png
+                                                                  1235839 字节
+205fbc823c62c4b23acd1bd4bb85223ef53e1ce2fe975bb82e414057b1ebd37c  人工智能回看材料/AI回看_03.png
+                                                                  1499233 字节
+f7883b297202adeabe97d2a96c0cc8d409de4209ee9d4a34f1f48a6b6f8e9732  人工智能回看材料/AI回看_04.png
+                                                                  1891108 字节
+28f4b55d944e0553a3b7f163f6294e32ac6784939d49160ef63d4c129930b9d6  人工智能回看材料/AI回看_05.png
+                                                                  1951755 字节
+97e1ba69894b14b7323674b0a52c6352f4b935f6ce0ac5b013954b94ed1ee2c6  人工智能回看材料/AI回看_06.png
+                                                                  3582518 字节
+01ad449be3d8a0d1a975db19f8f06eefad20d87dc47a194a428b43d4b90561e4  人工智能回看材料/AI回看_07.png
+                                                                  1977368 字节
+71b4952a2975615da2d3d6633cdf9d04a4d32bef8447244bcc40d255b5b18dc2  人工智能回看材料/AI回看_08.png
+                                                                  1776567 字节
+456cc1dc88cd50739f0369e884330822580cfb5cb122a97bf553440ecb8c701d  人工智能回看材料/AI回看_09.png
+                                                                  2253155 字节
+03f94ec6ae372b07bdd56a38da8cae60dcd8604fe44c564486513ff7a3494990  人工智能回看材料/AI回看_10.png
+                                                                  2592135 字节
+ae0ac189a2e6b7e209301b29fb805363e0e77ef42b68e348a1c5a898a659104a  人工智能回看材料/AI回看_11.png
+                                                                  2815072 字节
+892529618f6451965d7c649d8ff403a920a7c9cf66a59c213ef86fea762f4e7d  人工智能回看材料/AI回看_12.png
+                                                                  2543987 字节
+a8a35dd433a04d9b139903c80396eff9219b7fb38e5b4b42f740c544fb8bf28a  人工智能回看材料/AI回看_13.png
+                                                                  821379 字节
+99a586f91b33e20c690790abf1bf67197b9c02654ca651dc3321f05421858b78  人工智能回看材料/AI回看_14.png
+                                                                  1890650 字节
+23376365b2147e5e04b73ad15528e353ded8ed6a6a262695a430f63ffc7f919e  人工智能回看材料/AI回看_15.png
+                                                                  2295456 字节
+aff696dcb40bb4e515c6b104689a2c3a17824b7d6faa9f45a42ea651dee40e02  人工智能回看材料/AI回看_16.png
+                                                                  1924332 字节
+e2c0f3423c8b5888435dde96e276ebab2d399e7f6421df665f70a84125d9ec7e  人工智能回看材料/AI回看_17.png
+                                                                  2205321 字节
+461a54729dc785255cd23dc8ea0d3017415f7811bf06d5cab7ce631a2114f24f  人工智能回看材料/AI回看_18.png
+                                                                  2398919 字节
+94b03b4aee52e17b910b10c86356021eb5925da2e4fb4698bd6511cb7e3becc6  人工智能回看材料/AI回看_19.png
+                                                                  1205078 字节
+9fe12fd02b8d5040a2f4f13d565be4dd5428a8f2f3accc332a77a24691a95fbc  人工智能回看材料/AI回看_20.png
+                                                                  3736494 字节
+6ec3c676f05e2e82da92c0a5852d87b1cf600c7b5aa51a88514b940ecb0314bd  关键帧/01/kp1_t1.02s.png
+                                                                  826298 字节
+8ab1188f1a764e7c4067ecb93ee44383d2440e0634f84abd4919d4c875e7cb95  关键帧/01/kp2_t7.98s.png
+                                                                  868158 字节
+c69ed16a680e0d9935223550d9f165da4b304b58bd94c01a584dfdd420fa2567  关键帧/01/kp3_t7.57s.png
+                                                                  870653 字节
+c08e467f3aaa5e45068bbb4f27ed798b1f6bdc95b4a05f5f53f9563b53c815e7  关键帧/02/kp1_t1.38s.png
+                                                                  103800 字节
+1d68bbe82390a5f58b7b48698ef7fdded641f2d6c6badcc77cbf599d5058b90c  关键帧/02/kp2_t2.30s.png
+                                                                  105844 字节
+7bc1710ab32b554a091b33239add288d3f8113295742d5f1380114d74aa1dfbe  关键帧/02/kp3_t1.57s.png
+                                                                  104804 字节
+8b509b30871a9530da940329cf31857b5b001802574e03fb5ad89eed991425a0  关键帧/03/kp1_t2.77s.png
+                                                                  496393 字节
+f1c47216a4c88344b4300fef41b95a828bb771113b8a08cb934e7154ab73a22e  关键帧/03/kp2_t2.50s.png
+                                                                  481694 字节
+80bdf79adb7f727613e6af6d8c6ee9b01cb7f32899ec15d02fb32134190ad494  关键帧/03/kp3_t2.20s.png
+                                                                  469638 字节
+d21921674e6c4f41c4852e8da85e5954da8cb3a658308c0c809d5549aed3af17  关键帧/04/kp1_t0.67s.png
+                                                                  807880 字节
+f119b4ebd02e6a0b616cf4d481d0677fb84b04a6093bc68a9a48d83d20748c4a  关键帧/04/kp2_t0.93s.png
+                                                                  812550 字节
+c4a9b20ea582dea3ad0f950b51bf0dbb82080425030c21f47e478d06b053308e  关键帧/04/kp3_t2.28s.png
+                                                                  827025 字节
+a5e52baea5337f297eb974dec528f89171c37a92d99c7bd46e872847fceb3a8f  关键帧/05/kp1_t1.02s.png
+                                                                  823643 字节
+15a4e0f834151383b3e6bd59ce17c6ab83e6bfcf18ab8f63b57eba34d63d6be3  关键帧/05/kp2_t1.42s.png
+                                                                  995306 字节
+02a07257ee944327bc75d52ceb7fbceacbb8aa3be7d141317b9eb20e4d9880fc  关键帧/05/kp3_t5.08s.png
+                                                                  1032488 字节
+2434e05cb2f0a89705ea884da66dbc3c0df649e8cb986516f990600d8e3cb066  关键帧/06/kp1_t2.73s.png
+                                                                  371322 字节
+fea9ec8bc917dd324d7ea62975b0f14bce1b76ba1f2ffe7c020fe5297f574df8  关键帧/06/kp2_t2.50s.png
+                                                                  369822 字节
+eb740c5dc9bab84adb72080281ca3433a167e76f33e83985e286b536b428f3ac  关键帧/06/kp3_t3.20s.png
+                                                                  373043 字节
+241223e868eebd112ade7ddf9ea035d196e5d38e2bbd2c67fe5697803326ab1a  关键帧/07/kp1_t1.12s.png
+                                                                  1102604 字节
+a2060e436b383c5cfdf421fc16ac143dde44ca0b0b5a4779c7e88c09e5a892cf  关键帧/07/kp2_t2.00s.png
+                                                                  1070144 字节
+69c03b0c0170343226b6374c6441e8bb05bbd5919d8d15abba404674f7cd87a2  关键帧/07/kp3_t1.55s.png
+                                                                  1076735 字节
+d7577d010f3978ed48278bca92dda11ed09e15e8e02f45d31649d9423e7dcf1c  关键帧/08/kp1_t2.55s.png
+                                                                  842286 字节
+2234bd2073c3627b1fde8f9281e9858292ee703cc0ce8aba380b9e961ed84743  关键帧/08/kp2_t3.02s.png
+                                                                  838298 字节
+5603491b96c7e63afab76b82e34df629238bc6970ef9066143faeb2c4d4871cf  关键帧/08/kp3_t2.08s.png
+                                                                  835831 字节
+d77c9e38358314fb804605f6c854fd1e518f139720b3cbd794aefc37389020f7  关键帧/09/kp1_t4.33s.png
+                                                                  228965 字节
+45ad363f5387ce1532369be6482cbfd7b3fbbb3bdd28fd32044f7636e714deaf  关键帧/09/kp2_t4.07s.png
+                                                                  228849 字节
+8c63d78f5ad26453fd89180417f1f083261a0cf2e4de3d4ccbd34e998341fcb7  关键帧/09/kp3_t3.77s.png
+                                                                  222684 字节
+18d391ecd033f58e6757b89489dd0f897366a2fe9d8eab4b92975624bd2983b8  关键帧/10/kp1_t2.82s.png
+                                                                  262549 字节
+872f311b382f354f31d4cb33090a8ec53642cbd1f931d24d9bc74c60fe1d0dcb  关键帧/10/kp2_t2.48s.png
+                                                                  260816 字节
+fc4bc68e2d9437154314fcde67ddfd5609c559b5e9658ba85d948adce4e3eaf4  关键帧/10/kp3_t3.15s.png
+                                                                  267662 字节
+f850178740fc286f93bb331e48d0b1e241ac00e8690a7bd921b50f09362586bb  关键帧/11/kp1_t1.03s.png
+                                                                  276711 字节
+ad767c39f83437042aa813d5e6c390a4d02d843601901032d794211aed7d9f64  关键帧/11/kp2_t1.87s.png
+                                                                  280767 字节
+90a1b017488d112a970f70130271ed4e6614340a3e15c65eb419c02308a8faf1  关键帧/11/kp3_t1.45s.png
+                                                                  269368 字节
+e68030fe1d960d2cb5dfa80f6263bd1419c2f694fd32f736cfd6eb59c9436afb  关键帧/12/kp1_t8.83s.png
+                                                                  1333436 字节
+4c58cb2abae1108b993467b69a215514de557ae5882ef86eaf48a467faca1186  关键帧/12/kp2_t8.52s.png
+                                                                  1334070 字节
+5317e758719aaf66042d575129abcfac0b1696a3c0f70fec177dc4b90278aeb6  关键帧/12/kp3_t0.77s.png
+                                                                  1330381 字节
+8ab6a63a276c8da7585a5fdde1115a0584a587affbaf31c43e3ea4b463d42b8f  关键帧/14/kp1_t9.60s.png
+                                                                  793729 字节
+5f966293d7de843b076a87d78e8aa8e3f7cb9ef5b6764eed225f335a8bab191e  关键帧/14/kp2_t9.32s.png
+                                                                  789039 字节
+99b42ae9b5e635e1797ad71d483b43eff4447bf76b31b62298981a5c9e891092  关键帧/14/kp3_t1.03s.png
+                                                                  791512 字节
+4782b2c36a9e887c0879b2ff4b4753f1e6ec0c74c1d33b5247f1906498782ba4  关键帧/15/kp1_t5.77s.png
+                                                                  1250668 字节
+3db2e6c91ea0ada53fb1e02979bc30efc1cf4ddce280e0aa4e42538f4aa3d721  关键帧/15/kp2_t5.40s.png
+                                                                  1257776 字节
+983c650b740d39feadf5f7dd5ed3388ac1f2e30df84b963eb7840d5022d4dbcb  关键帧/15/kp3_t5.07s.png
+                                                                  1255862 字节
+f568a24877e9b5eedc205fce4141a829d81eeb563850f3e0bb3fe5bd548e1dec  关键帧/16/kp1_t2.12s.png
+                                                                  188636 字节
+8de959844ea34ac4df6b763029f4f49500c08d7dad857d4e8d4a936b0044634d  关键帧/16/kp2_t1.27s.png
+                                                                  192558 字节
+125342fd5ec416ecd54f7f79d94bb7693f81765a376f89afe9e44fc721a715c8  关键帧/16/kp3_t1.55s.png
+                                                                  183638 字节
+a813d82d159887b12dce2c081d64e145a93165cb220c2278d231b06174ba57d9  关键帧/17/kp1_t2.22s.png
+                                                                  1115074 字节
+49bae23940b6f34818d37c179f3c513dca9ac744c82ea667c359316baf187e5a  关键帧/17/kp2_t1.82s.png
+                                                                  1112914 字节
+04a034399bd93d83f3fbf3f4cebee7c81f39611bfcd75175b63dbb63afc0b32d  关键帧/17/kp3_t2.62s.png
+                                                                  1105085 字节
+2f754fc39351f3321451d0f6d508afe59e9ddaceb840cfdf823b25c99518199c  关键帧/18/kp1_t10.78s.png
+                                                                  1240327 字节
+72c897041a3ad2ac625c2ff030104e15d80f6342b312eab90d458ee4d55957ca  关键帧/18/kp2_t17.45s.png
+                                                                  1233373 字节
+449fb201cb71634280cb7ffc5f2a073b95de744b6756e1901e994f94130c94e6  关键帧/18/kp3_t7.65s.png
+                                                                  1225452 字节
+78fd58bbf3dd19810fa55e4b5c78786ae8560327e659570ed83672704fe012fe  关键帧/19/kp1_t7.55s.png
+                                                                  339035 字节
+b5b7507adf7d275f0f205f23b8f2a2d79137c4946cd09b5734ed4bc21cd52822  关键帧/19/kp2_t12.80s.png
+                                                                  370072 字节
+c98c0adb0773dad8580af66dfed6684eb3fd764f4de9b32168c04eeb20d350da  关键帧/19/kp3_t12.45s.png
+                                                                  367568 字节
+f49a7f3347ee153bfc1dd4cae5479318ae7bbdda34570dfd5565ea405f210fe9  关键帧/20/kp1_t3.70s.png
+                                                                  240185 字节
+7f75586aaee396337cd859da3874ae8101fe12a39a3eb357680e99ebef51872a  关键帧/20/kp2_t3.95s.png
+                                                                  240503 字节
+6417338861c37fde8982be0a06cb9d653a607ddbea44ef9cfdeaab21c57c1ead  关键帧/20/kp3_t4.20s.png
+                                                                  242362 字节
+417159c982417bdfa4a16e783fecbc3e0ed0bfc29e067d398558ecf8973258cb  阶段九_AI辅助回看结论.csv
+                                                                  9060 字节
+ded13301a634ed08088fff27c7293f6fcff4623b7b23d3dffbf1b5d2808427b9  阶段九_AI辅助回看记录.md
+                                                                  16485 字节
+bc5c24e5e26819a8dd9826d24e0ecda4462033c44526a6b2ade07493ae763b30  阶段九_人工回看工作表.csv
+                                                                  43416 字节
+b5e64f0245b954f2e52caa806416faf745c5dff3f8de645e01c22f065d3b78e0  阶段九_人工回看指南.md
+                                                                  4933 字节
+c97dd7962142c50118a62c6783e572203af7e786b507216d9de44e02a2be5d47  阶段九_人工复核确认单.html
+                                                                  8614791 字节
+21f3f400da485a9174ee4f5d900f0d0861cddc1b1983cd2161e7fdf2fc0d1f19  阶段九_关键音频窗口客观指标.csv
+                                                                  1349 字节
+92305c33693f229d98bc2ccf0eccdfcd4503759923da2eb507e4ea169d73ca77  阶段九_执行记录.md
+                                                                  9114 字节
+0c0b77b699659f7b0002f67592540ccd89748eb8697fd27e1cc3be4c59ea98ce  阶段九_推理日志.log
+                                                                  1641 字节
+9d3a6451bfb2a9f59f6db8fa74cf53c8ad7d76e09d4482b79be90e5b9a2af2a6  阶段九_最终验收表.md
+                                                                  8675 字节
+e612de4044c324a5533821d7c4d290f5f40400d0536c3044c4511cfb89c8642e  阶段九_解释卡/阶段九_解释卡_01.md
+                                                                  4888 字节
+f9b5df3bdfc86937b17e3cccf242aab15c87b0a40a800981f88a069db51e0b15  阶段九_解释卡/阶段九_解释卡_02.md
+                                                                  5712 字节
+2cdcad7e6b70f197148a52deeaf9ae75b8008d564547d7a702b809d16355f1db  阶段九_解释卡/阶段九_解释卡_03.md
+                                                                  4793 字节
+622e596b86d7fbdcfd075c860102f7fdb1333ffa9eac1cb35316e39781060165  阶段九_解释卡/阶段九_解释卡_04.md
+                                                                  4840 字节
+d43c2b7d72bedcfa888bf3e088e7c6d69eac6f3f95ed6d11a3f16e729ef73172  阶段九_解释卡/阶段九_解释卡_05.md
+                                                                  4787 字节
+a79cca38350508c6c1c18fdfc6da72acb9cc5ac498eee944d2fd672ef4eea252  阶段九_解释卡/阶段九_解释卡_06.md
+                                                                  4758 字节
+6fda60f3f7d99374a0edf405a11e8a0227e6015aeb4efdd78de60a1f961c8aeb  阶段九_解释卡/阶段九_解释卡_07.md
+                                                                  4777 字节
+3d3a0164d3331ac3ba512b21db24b6dfea0e79a80ef86e12e420d41a9f516fd8  阶段九_解释卡/阶段九_解释卡_08.md
+                                                                  4754 字节
+af47f4a175d24e6c80bb8bbc5254653a90fcf4d34f77b137e3a3be9d4fbf32f8  阶段九_解释卡/阶段九_解释卡_09.md
+                                                                  4652 字节
+442e21536ab241d773a0cf188a31a2ebb86ea4a7442a90411e5f01275662e346  阶段九_解释卡/阶段九_解释卡_10.md
+                                                                  4684 字节
+a535e534ea5f9d6a6918dda1f69f7aa7306ac1b153c823f2d78897e146c01833  阶段九_解释卡/阶段九_解释卡_11.md
+                                                                  4736 字节
+756c73d5d567b324d26424a6a9dcdc2805a2f503267745ba4457dc3e79b32be2  阶段九_解释卡/阶段九_解释卡_12.md
+                                                                  4823 字节
+ed07b060168da84e7cb41b75167c41f4609865b44306e9ce41235e40708c5482  阶段九_解释卡/阶段九_解释卡_13.md
+                                                                  5134 字节
+3c36fd12de602134e082e933c0bc35b8ccfe42dbd74e7205edf4439e6508210e  阶段九_解释卡/阶段九_解释卡_14.md
+                                                                  4697 字节
+5398cd6d30f3a0ecb8a49bf6fd9087b216e95c00578c27f6e697ff3b8e6d2266  阶段九_解释卡/阶段九_解释卡_15.md
+                                                                  4704 字节
+8b37e5f9a74e84da132a84530582236f8d808621f57298efae57236255a3e3d9  阶段九_解释卡/阶段九_解释卡_16.md
+                                                                  4723 字节
+b09ca1766a1032dd93e00a0aebf34dce14f70caecffe3760ca39c23ba31f1646  阶段九_解释卡/阶段九_解释卡_17.md
+                                                                  4816 字节
+b17210ed79d776e738423afdddbc49cb048ca4fd6cec8cbcc0f32823994c79e2  阶段九_解释卡/阶段九_解释卡_18.md
+                                                                  4832 字节
+e902969bb780bdc603fe5effecbe9bb55751692e4bc508f84dd19db422c5059c  阶段九_解释卡/阶段九_解释卡_19.md
+                                                                  4914 字节
+f23685f86469d1dbc756f727ac8cf84d6aa1772700d6b763659b1d8d3da1b4d8  阶段九_解释卡/阶段九_解释卡_20.md
+                                                                  4718 字节
+2049c624a8db3b0ebaa7bd5ab8c6c5fa194e158017f87f2791967a0e7998738b  阶段九_附件4关键证据明细.csv
+                                                                  47297 字节
+39f2f1c27b888f0b96d8fac291771cb6092cbbaa4e4fd10caaab3d3f5b12ce99  阶段九_附件4掩码核验.csv
+                                                                  1905 字节
+9449fc60b24d4d740e9ae5e455a09c860864dec5147df60507bf7c25da6f1514  阶段九_附件4视频元数据.json
+                                                                  4007 字节
+fa35f98869310f6f580b75da6b7e2ef8d575749d6c97153b152beffaf3447e97  阶段九_附件4输入核验.json
+                                                                  16477 字节
+52773c7f4ebc8d9b51a66fd0ace3b5616ac07f5e0ca77c500e3b9e29d92a111a  阶段九_附件4预测与解释.csv
+                                                                  19389 字节
+72056e6b9161489434dab3f6639b1d4e7a61ffcd73e5b20b148a1eb819655ece  阶段九_附件4预测与解释说明.md
+                                                                  14831 字节
+
+合计 173 个文件，共 125705752 字节。
