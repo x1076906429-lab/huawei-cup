@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="467.943307pt" height="350.022047pt" viewBox="0 0 467.943307 350.022047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-26T11:01:12.676996</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 350.022047 
+L 467.943307 350.022047 
+L 467.943307 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 17.177953 66.16063 
+L 83.395276 66.16063 
+Q 88.837795 66.16063 88.837795 60.71811 
+L 88.837795 46.204724 
+Q 88.837795 40.762205 83.395276 40.762205 
+L 17.177953 40.762205 
+Q 11.735433 40.762205 11.735433 46.204724 
+L 11.735433 60.71811 
+Q 11.735433 66.16063 17.177953 66.16063 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #3b6fb6; fill-opacity: 0.133333; stroke: #3b6fb6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 90.981994 55.483981 
+Q 99.041293 65.705531 106.477579 75.136918 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 105.662107 71.195471 
+L 106.477579 75.136918 
+L 102.835138 73.424427 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 17.177953 96.094488 
+L 83.395276 96.094488 
+Q 88.837795 96.094488 88.837795 90.651969 
+L 88.837795 76.138583 
+Q 88.837795 70.696063 83.395276 70.696063 
+L 17.177953 70.696063 
+Q 11.735433 70.696063 11.735433 76.138583 
+L 11.735433 90.651969 
+Q 11.735433 96.094488 17.177953 96.094488 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #e0892b; fill-opacity: 0.133333; stroke: #e0892b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 91.638004 83.202387 
+Q 99.041022 80.674527 105.491793 78.471825 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 101.503274 77.931713 
+L 105.491793 78.471825 
+L 102.666592 81.338573 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 17.177953 126.028346 
+L 83.395276 126.028346 
+Q 88.837795 126.028346 88.837795 120.585827 
+L 88.837795 106.072441 
+Q 88.837795 100.629921 83.395276 100.629921 
+L 17.177953 100.629921 
+Q 11.735433 100.629921 11.735433 106.072441 
+L 11.735433 120.585827 
+Q 11.735433 126.028346 17.177953 126.028346 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #4e9f50; fill-opacity: 0.133333; stroke: #4e9f50; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 90.655124 112.006594 
+Q 99.041051 95.643811 106.968045 80.176505 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 103.724238 82.559301 
+L 106.968045 80.176505 
+L 106.927998 84.201228 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 114.689764 106.979528 
+L 176.371654 106.979528 
+Q 181.814173 106.979528 181.814173 101.537008 
+L 181.814173 51.193701 
+Q 181.814173 45.751181 176.371654 45.751181 
+L 114.689764 45.751181 
+Q 109.247244 45.751181 109.247244 51.193701 
+L 109.247244 101.537008 
+Q 109.247244 106.979528 114.689764 106.979528 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #f4f4f4; stroke: #5a5a5a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 184.718356 76.592126 
+Q 190.884724 76.592126 196.04486 76.592126 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 192.44486 74.792126 
+L 196.04486 76.592126 
+L 192.44486 78.392126 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 205.398425 100.176378 
+L 271.615748 100.176378 
+Q 277.058268 100.176378 277.058268 94.733858 
+L 277.058268 57.99685 
+Q 277.058268 52.554331 271.615748 52.554331 
+L 205.398425 52.554331 
+Q 199.955906 52.554331 199.955906 57.99685 
+L 199.955906 94.733858 
+Q 199.955906 100.176378 205.398425 100.176378 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #ffffff; stroke: #5a5a5a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 302.910236 95.640945 
+L 450.765354 95.640945 
+Q 456.207874 95.640945 456.207874 90.198425 
+L 456.207874 33.051969 
+Q 456.207874 27.609449 450.765354 27.609449 
+L 302.910236 27.609449 
+Q 297.467717 27.609449 297.467717 33.051969 
+L 297.467717 90.198425 
+Q 297.467717 95.640945 302.910236 95.640945 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #fff8ec; stroke: #c98a2b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 279.840317 70.010101 
+Q 287.259548 67.295748 293.733804 64.927118 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 289.734515 64.47359 
+L 293.733804 64.927118 
+L 290.971409 67.854433 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 302.910236 190.885039 
+L 450.765354 190.885039 
+Q 456.207874 190.885039 456.207874 185.44252 
+L 456.207874 128.296063 
+Q 456.207874 122.853543 450.765354 122.853543 
+L 302.910236 122.853543 
+Q 297.467717 122.853543 297.467717 128.296063 
+L 297.467717 185.44252 
+Q 297.467717 190.885039 302.910236 190.885039 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #fff8ec; stroke: #c98a2b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 278.663358 95.245922 
+Q 287.262984 118.318089 295.511178 140.44739 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 295.940507 136.445431 
+L 295.511178 140.44739 
+L 292.567208 137.702752 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 17.177953 224.900787 
+L 90.198425 224.900787 
+Q 95.640945 224.900787 95.640945 219.458268 
+L 95.640945 155.508661 
+Q 95.640945 150.066142 90.198425 150.066142 
+L 17.177953 150.066142 
+Q 11.735433 150.066142 11.735433 155.508661 
+L 11.735433 219.458268 
+Q 11.735433 224.900787 17.177953 224.900787 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #3b6fb6; fill-opacity: 0.101961; stroke: #3b6fb6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 110.154331 224.900787 
+L 183.174803 224.900787 
+Q 188.617323 224.900787 188.617323 219.458268 
+L 188.617323 155.508661 
+Q 188.617323 150.066142 183.174803 150.066142 
+L 110.154331 150.066142 
+Q 104.711811 150.066142 104.711811 155.508661 
+L 104.711811 219.458268 
+Q 104.711811 224.900787 110.154331 224.900787 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #e0892b; fill-opacity: 0.101961; stroke: #e0892b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 203.130709 224.900787 
+L 276.151181 224.900787 
+Q 281.593701 224.900787 281.593701 219.458268 
+L 281.593701 155.508661 
+Q 281.593701 150.066142 276.151181 150.066142 
+L 203.130709 150.066142 
+Q 197.688189 150.066142 197.688189 155.508661 
+L 197.688189 219.458268 
+Q 197.688189 224.900787 203.130709 224.900787 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #4e9f50; fill-opacity: 0.101961; stroke: #4e9f50; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 294.896383 171.585089 
+Q 289.757743 175.010848 285.456339 177.878451 
+" clip-path="url(#p4a0a1f4b8e)" style="fill: none; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 289.45018 177.379221 
+L 285.456339 177.878451 
+L 287.453259 174.38384 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #5a5a5a; stroke: #5a5a5a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 302.910236 283.861417 
+L 369.127559 283.861417 
+Q 374.570079 283.861417 374.570079 278.418898 
+L 374.570079 228.075591 
+Q 374.570079 222.633071 369.127559 222.633071 
+L 302.910236 222.633071 
+Q 297.467717 222.633071 297.467717 228.075591 
+L 297.467717 278.418898 
+Q 297.467717 283.861417 302.910236 283.861417 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #eef3fa; stroke: #3b6fb6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 384.548031 283.861417 
+L 450.765354 283.861417 
+Q 456.207874 283.861417 456.207874 278.418898 
+L 456.207874 228.075591 
+Q 456.207874 222.633071 450.765354 222.633071 
+L 384.548031 222.633071 
+Q 379.105512 222.633071 379.105512 228.075591 
+L 379.105512 278.418898 
+Q 379.105512 283.861417 384.548031 283.861417 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #eef3fa; stroke: #3b6fb6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 17.177953 336.018898 
+L 450.765354 336.018898 
+Q 456.207874 336.018898 456.207874 330.576378 
+L 456.207874 305.177953 
+Q 456.207874 299.735433 450.765354 299.735433 
+L 17.177953 299.735433 
+Q 11.735433 299.735433 11.735433 305.177953 
+L 11.735433 330.576378 
+Q 11.735433 336.018898 17.177953 336.018898 
+z
+" clip-path="url(#p4a0a1f4b8e)" style="fill: #f7f7f7; stroke: #bbbbbb; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; text-anchor: start" x="11.735433" y="23.539974" transform="rotate(-0 11.735433 23.539974)">① 冻结模型与完整输入</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(28.59427 51.053527)">文本  50×768</text>
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(33.138255 60.706417)">+ 观测掩码</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(30.693177 80.932151)">音频  50×74</text>
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(33.138255 90.640276)">+ 观测掩码</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(30.693177 110.920696)">视觉  50×35</text>
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(33.138255 120.574134)">+ 观测掩码</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.8px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(118.230709 62.734854)">问题二冻结模型</text>
+    <text style="font-size: 7.8px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(122.865006 73.091792)">static_concat</text>
+    <text style="font-size: 7.8px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(123.698021 84.442011)">81,540 参数</text>
+    <text style="font-size: 7.8px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(120.446396 94.669151)">eval + no_grad</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.8px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(215.107087 68.164995)">完整输入输出</text>
+    <!-- $p^{\mathrm{full}}(\hat y)$ -->
+    <g transform="translate(226.027087 79.251354)">
+     <text>
+      <tspan x="0" y="-0.633287" style="font-style: oblique; font-size: 7.8px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="16.979064" y="-0.633287" style="font-style: oblique; font-size: 7.8px; font-family: 'DejaVu Sans'">y</tspan>
+      <tspan x="5.310673" y="-3.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">f</tspan>
+      <tspan x="7.232105" y="-3.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">u</tspan>
+      <tspan x="10.691207" y="-3.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="12.207567" y="-3.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="13.937209" y="-0.633287" style="font-size: 7.8px; font-family: 'DejaVu Sans'">(</tspan>
+      <tspan x="21.869689" y="-0.633287" style="font-size: 7.8px; font-family: 'DejaVu Sans'">)</tspan>
+      <tspan x="22.35797" y="-1.514537" style="font-size: 7.8px; font-family: 'DejaVu Sans'">̂</tspan>
+     </text>
+    </g>
+    <!-- $\hat r^{\mathrm{full}}$ -->
+    <g transform="translate(232.462087 91.926354)">
+     <text>
+      <tspan x="3.988281" y="-1.72787" style="font-size: 7.8px; font-family: 'DejaVu Sans'">̂</tspan>
+      <tspan x="0" y="-0.75287" style="font-style: oblique; font-size: 7.8px; font-family: 'DejaVu Sans'">r</tspan>
+      <tspan x="3.402773" y="-5.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">f</tspan>
+      <tspan x="5.324206" y="-5.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">u</tspan>
+      <tspan x="8.783308" y="-5.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="10.299668" y="-5.854687" style="font-size: 5.46px; font-family: 'DejaVu Sans'">l</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; text-anchor: start" x="297.467717" y="23.539974" transform="rotate(-0 297.467717 23.539974)">② 模态级遮蔽</text>
+   </g>
+   <g id="text_8">
+    <!-- 模态 $m$ 的观测掩码整体置无效、输入置零 -->
+    <g transform="translate(308.091795 48.601197)">
+     <text>
+      <tspan x="0" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">模</tspan>
+      <tspan x="7.390625" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">态</tspan>
+      <tspan x="14.78125" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="24.196365" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="26.412109" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">的</tspan>
+      <tspan x="33.802734" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">观</tspan>
+      <tspan x="41.193359" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">测</tspan>
+      <tspan x="48.583984" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">掩</tspan>
+      <tspan x="55.974609" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">码</tspan>
+      <tspan x="63.365234" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">整</tspan>
+      <tspan x="70.755859" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">体</tspan>
+      <tspan x="78.146484" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">置</tspan>
+      <tspan x="85.537109" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">无</tspan>
+      <tspan x="92.927734" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">效</tspan>
+      <tspan x="100.318359" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">、</tspan>
+      <tspan x="107.708984" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">输</tspan>
+      <tspan x="115.099609" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">入</tspan>
+      <tspan x="122.490234" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">置</tspan>
+      <tspan x="129.880859" y="-0.84375" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">零</tspan>
+      <tspan x="16.996994" y="-0.84375" style="font-style: oblique; font-size: 7.4px; font-family: 'DejaVu Sans'">m</tspan>
+     </text>
+    </g>
+    <!-- 得到 $p^{(-m)}(\hat y)$ 与 $\hat r^{(-m)}$ -->
+    <g transform="translate(339.393795 60.071197)">
+     <text>
+      <tspan x="0" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">得</tspan>
+      <tspan x="7.390625" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">到</tspan>
+      <tspan x="14.78125" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="46.052662" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="48.268406" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">与</tspan>
+      <tspan x="55.659031" y="-0.241665" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="16.996994" y="-0.241665" style="font-style: oblique; font-size: 7.4px; font-family: 'DejaVu Sans'">p</tspan>
+      <tspan x="38.528675" y="-0.241665" style="font-style: oblique; font-size: 7.4px; font-family: 'DejaVu Sans'">y</tspan>
+      <tspan x="57.874775" y="-0.241665" style="font-style: oblique; font-size: 7.4px; font-family: 'DejaVu Sans'">r</tspan>
+      <tspan x="22.031929" y="-3.297865" style="font-size: 5.18px; font-family: 'DejaVu Sans'">(</tspan>
+      <tspan x="24.050282" y="-3.297865" style="font-size: 5.18px; font-family: 'DejaVu Sans'">−</tspan>
+      <tspan x="33.424616" y="-3.297865" style="font-size: 5.18px; font-family: 'DejaVu Sans'">)</tspan>
+      <tspan x="61.101845" y="-5.073437" style="font-size: 5.18px; font-family: 'DejaVu Sans'">(</tspan>
+      <tspan x="63.120199" y="-5.073437" style="font-size: 5.18px; font-family: 'DejaVu Sans'">−</tspan>
+      <tspan x="72.494533" y="-5.073437" style="font-size: 5.18px; font-family: 'DejaVu Sans'">)</tspan>
+      <tspan x="28.385057" y="-3.297865" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="67.454974" y="-5.073437" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="35.645314" y="-0.241665" style="font-size: 7.4px; font-family: 'DejaVu Sans'">(</tspan>
+      <tspan x="43.1693" y="-0.241665" style="font-size: 7.4px; font-family: 'DejaVu Sans'">)</tspan>
+      <tspan x="43.688832" y="-1.072915" style="font-size: 7.4px; font-family: 'DejaVu Sans'">̂</tspan>
+      <tspan x="61.663838" y="-1.166665" style="font-size: 7.4px; font-family: 'DejaVu Sans'">̂</tspan>
+     </text>
+    </g>
+    <!-- 计算 $\Delta^{\mathrm{cls}}_m$、$\Delta^{\mathrm{int}}_m$ 并样本内归一化 -->
+    <g transform="translate(325.407795 69.173197)">
+     <text>
+      <tspan x="0" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">计</tspan>
+      <tspan x="7.390625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">算</tspan>
+      <tspan x="14.78125" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="29.303038" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">、</tspan>
+      <tspan x="48.767306" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="50.98305" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">并</tspan>
+      <tspan x="58.373675" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">样</tspan>
+      <tspan x="65.7643" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">本</tspan>
+      <tspan x="73.154925" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">内</tspan>
+      <tspan x="80.54555" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">归</tspan>
+      <tspan x="87.936175" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">一</tspan>
+      <tspan x="95.3268" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">化</tspan>
+      <tspan x="16.996994" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">Δ</tspan>
+      <tspan x="36.693663" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">Δ</tspan>
+      <tspan x="22.123616" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">c</tspan>
+      <tspan x="24.967996" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="26.405348" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">s</tspan>
+      <tspan x="41.820284" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">i</tspan>
+      <tspan x="43.257636" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">n</tspan>
+      <tspan x="46.536505" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">t</tspan>
+      <tspan x="22.123616" y="2.269362" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="41.820284" y="2.269362" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+     </text>
+    </g>
+    <!-- 主要模态 $=\arg\max_m|\Delta^{\mathrm{cls}}_m|$ -->
+    <g transform="translate(332.400795 78.460197)">
+     <text>
+      <tspan x="0" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">主</tspan>
+      <tspan x="7.390625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">要</tspan>
+      <tspan x="14.78125" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">模</tspan>
+      <tspan x="22.171875" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">态</tspan>
+      <tspan x="29.5625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="33.218118" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">=</tspan>
+      <tspan x="40.850528" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">a</tspan>
+      <tspan x="45.379459" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">r</tspan>
+      <tspan x="48.417987" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">g</tspan>
+      <tspan x="54.309221" y="-0.017237" style="font-size: 7.4px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="61.508592" y="-0.017237" style="font-size: 7.4px; font-family: 'DejaVu Sans'">a</tspan>
+      <tspan x="66.037523" y="-0.017237" style="font-size: 7.4px; font-family: 'DejaVu Sans'">x</tspan>
+      <tspan x="71.611191" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">|</tspan>
+      <tspan x="74.101196" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">Δ</tspan>
+      <tspan x="86.40724" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">|</tspan>
+      <tspan x="60.309221" y="4.378075" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="79.227818" y="2.269362" style="font-style: oblique; font-size: 5.18px; font-family: 'DejaVu Sans'">m</tspan>
+      <tspan x="79.227818" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">c</tspan>
+      <tspan x="82.072198" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="83.50955" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; text-anchor: start" x="297.467717" y="118.784069" transform="rotate(-0 297.467717 118.784069)">③ 位置级遮蔽</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(329.10953 143.844135)">文本：单个词元位置，步长 1</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(318.608467 154.200666)">音频/视觉：连续窗口 W=5，步长 1</text>
+    <!-- 仅对已观测单元计算 $\Delta^{\mathrm{cls}}$ -->
+    <g transform="translate(336.248795 165.046291)">
+     <text>
+      <tspan x="0" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">仅</tspan>
+      <tspan x="7.390625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">对</tspan>
+      <tspan x="14.78125" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">已</tspan>
+      <tspan x="22.171875" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">观</tspan>
+      <tspan x="29.5625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">测</tspan>
+      <tspan x="36.953125" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">单</tspan>
+      <tspan x="44.34375" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">元</tspan>
+      <tspan x="51.734375" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">计</tspan>
+      <tspan x="59.125" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">算</tspan>
+      <tspan x="66.515625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="68.731369" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">Δ</tspan>
+      <tspan x="73.857991" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">c</tspan>
+      <tspan x="76.702371" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="78.139723" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">s</tspan>
+     </text>
+    </g>
+    <!-- 按 $|\Delta^{\mathrm{cls}}|$ 降序取 Top-5（对照 K=3） -->
+    <g transform="translate(318.229795 175.036291)">
+     <text>
+      <tspan x="0" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">按</tspan>
+      <tspan x="7.390625" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="26.892424" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="29.108168" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">降</tspan>
+      <tspan x="36.498793" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">序</tspan>
+      <tspan x="43.889418" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">取</tspan>
+      <tspan x="51.280043" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="53.495787" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">T</tspan>
+      <tspan x="57.191099" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">o</tspan>
+      <tspan x="61.175108" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">p</tspan>
+      <tspan x="65.159117" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">-</tspan>
+      <tspan x="67.374861" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">5</tspan>
+      <tspan x="71.806349" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">（</tspan>
+      <tspan x="79.196974" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">对</tspan>
+      <tspan x="86.587599" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">照</tspan>
+      <tspan x="93.978224" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'"> </tspan>
+      <tspan x="96.193968" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">K</tspan>
+      <tspan x="100.769804" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">=</tspan>
+      <tspan x="105.201292" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">3</tspan>
+      <tspan x="109.63278" y="-0.017238" style="font-weight: 500; font-size: 7.4px; font-family: 'WenQuanYi Zen Hei'">）</tspan>
+      <tspan x="9.606369" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">|</tspan>
+      <tspan x="12.096375" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">Δ</tspan>
+      <tspan x="24.402418" y="-0.017238" style="font-size: 7.4px; font-family: 'DejaVu Sans'">|</tspan>
+      <tspan x="17.222996" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">c</tspan>
+      <tspan x="20.067376" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">l</tspan>
+      <tspan x="21.504728" y="-3.073438" style="font-size: 5.18px; font-family: 'DejaVu Sans'">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; text-anchor: start" x="11.735433" y="141.461234" transform="rotate(-0 11.735433 141.461234)">④ 关键证据与原始位置映射</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(46.288189 174.57798)">文本</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(27.050501 184.955324)">词元序号 + 词元</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(29.64108 195.283527)">±3 词元上下文</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(35.188189 205.578199)">功能词标记</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(139.264567 179.69959)">音频</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(131.864567 190.01623)">桶位区间</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(115.955145 200.368715)">→ 视频内重建秒数</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(232.240945 174.577402)">视觉</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(204.122101 184.854152)">桶位区间 → 重建秒数</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(209.32407 195.069621)">→ 帧号 round(30t)</text>
+    <text style="font-size: 7.4px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(216.331523 205.636011)">→ 关键帧截图</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; fill: #6b6b6b" transform="translate(11.735433 260.016972)">附件2 无时长/帧率字段：音频、视觉只给桶位与相对位置；</text>
+    <text style="font-size: 7px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; fill: #6b6b6b" transform="translate(11.735433 267.987402)">附件4 带原始视频：按有效跨度线性重建时间与帧号（近似值）</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif; text-anchor: start" x="297.467717" y="214.028163" transform="rotate(-0 297.467717 214.028163)">⑤ 解释验证（附件2 验证集，n=728）</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(325.218898 240.700682)">忠实度</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(318.749585 250.565807)">Top-K 片段</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(309.886835 260.765619)">vs 等长随机片段</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(304.342273 270.750557)">（随机重复 10 次）</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(406.856693 240.675932)">稳定性</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(397.859505 250.816119)">窗口平移 ±1</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(403.256693 260.738057)">输入扰动</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(385.64313 270.258369)">σ ∈ {0.01, 0.1, 0.5}</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(64.771654 315.23454)">贡献为相对遮蔽基线的边际效应，不等同于因果贡献；三模态贡献不可加；时间与帧号为重建的近似位置；</text>
+    <text style="font-size: 7.2px; font-family: 'WenQuanYi Zen Hei', 'DejaVu Sans', sans-serif" transform="translate(114.821216 325.367415)">全部结果基于单份冻结权重（主种子 20260924），不含跨训练种子的变化</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4a0a1f4b8e">
+   <rect x="7.2" y="7.2" width="453.543307" height="335.622047"/>
+  </clipPath>
+ </defs>
+</svg>

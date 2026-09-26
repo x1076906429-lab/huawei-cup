@@ -1,0 +1,15 @@
+﻿指标,取值,来源
+audio_spearman_shift-1,0.9991,阶段八_解释稳定性验证.csv
+audio_spearman_shift+1,0.959,阶段八_解释稳定性验证.csv
+audio_top5_overlap_shift-1,0.9985,阶段八_解释稳定性验证.csv
+audio_top5_overlap_shift+1,0.9173,阶段八_解释稳定性验证.csv
+vision_spearman_shift-1,0.9993,阶段八_解释稳定性验证.csv
+vision_spearman_shift+1,0.9532,阶段八_解释稳定性验证.csv
+vision_top5_overlap_shift-1,0.9981,阶段八_解释稳定性验证.csv
+vision_top5_overlap_shift+1,0.9235,阶段八_解释稳定性验证.csv
+扰动σ0.01_符号一致率,0.9998,阶段八_解释稳定性验证.csv
+扰动σ0.1_符号一致率,0.9957,阶段八_解释稳定性验证.csv
+扰动σ0.5_符号一致率,0.9679,阶段八_解释稳定性验证.csv
+扰动σ0.5_排名Spearman,0.9462,阶段八_解释稳定性验证.csv
+扰动σ0.01_排名Spearman,0.9995,阶段八_解释方法配置.json
+扰动σ0.1_排名Spearman,0.9921,阶段八_解释方法配置.json
