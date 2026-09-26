@@ -1,0 +1,563 @@
+{
+ "val": {
+  "n": 728,
+  "n_unique": 728,
+  "acc": 0.6264,
+  "pred_prob_mean": 0.672,
+  "confusion": [
+   [
+    121,
+    34,
+    51
+   ],
+   [
+    29,
+    63,
+    92
+   ],
+   [
+    32,
+    34,
+    272
+   ]
+  ],
+  "dominant": {
+   "文本": 597,
+   "音频": 80,
+   "视觉": 51
+  },
+  "text": {
+   "cls_mean": 0.3002,
+   "cls_sd_ddof0": 0.2044,
+   "cls_sd_ddof1": 0.2046,
+   "q10": 0.0395,
+   "median": 0.2868,
+   "q90": 0.5952,
+   "cls_pos": 0.9464,
+   "int_mean": 0.4598,
+   "int_sd": 0.4176,
+   "int_pos": 0.9231
+  },
+  "audio": {
+   "cls_mean": 0.0136,
+   "cls_sd_ddof0": 0.0741,
+   "cls_sd_ddof1": 0.0742,
+   "q10": -0.0744,
+   "median": 0.0122,
+   "q90": 0.1009,
+   "cls_pos": 0.6099,
+   "int_mean": 0.0677,
+   "int_sd": 0.201,
+   "int_pos": 0.6621
+  },
+  "vision": {
+   "cls_mean": 0.017,
+   "cls_sd_ddof0": 0.0641,
+   "cls_sd_ddof1": 0.0642,
+   "q10": -0.0657,
+   "median": 0.015,
+   "q90": 0.0893,
+   "cls_pos": 0.6484,
+   "int_mean": 0.0504,
+   "int_sd": 0.1414,
+   "int_pos": 0.6085
+  },
+  "by_correct": {
+   "False": {
+    "n": 272,
+    "prob": 0.5873,
+    "text": 0.2153,
+    "audio": 0.0219,
+    "vision": 0.0167
+   },
+   "True": {
+    "n": 456,
+    "prob": 0.7225,
+    "text": 0.3508,
+    "audio": 0.0086,
+    "vision": 0.0173
+   }
+  },
+  "by_dominant": {
+   "文本": {
+    "n": 597,
+    "prob": 0.7131,
+    "acc": 0.6683,
+    "text": 0.3594
+   },
+   "视觉": {
+    "n": 51,
+    "prob": 0.5143,
+    "acc": 0.5294,
+    "text": 0.0346
+   },
+   "音频": {
+    "n": 80,
+    "prob": 0.4654,
+    "acc": 0.375,
+    "text": 0.0277
+   }
+  }
+ },
+ "fidelity": {
+  "3": {
+   "n": 713,
+   "dP_top": 0.0354,
+   "dP_rand": -0.0031,
+   "diff": 0.0385,
+   "diff_pos": 0.7728,
+   "wilcoxon_p_recomputed": 5.87945719451226e-56,
+   "flip_top_n": 48,
+   "flip_top": 0.0673,
+   "flip_rand_n": 48.0,
+   "flip_rand": 0.0673,
+   "prob_flip": 0.4715,
+   "prob_noflip": 0.69,
+   "corr_prob_flip": -0.3027,
+   "dInt_top": 0.0655,
+   "dInt_rand": -0.0112,
+   "by_modality": {
+    "文本": {
+     "n": 593,
+     "diff": 0.0449
+    },
+    "视觉": {
+     "n": 42,
+     "diff": -0.0003
+    },
+    "音频": {
+     "n": 78,
+     "diff": 0.0111
+    }
+   }
+  },
+  "5": {
+   "n": 703,
+   "dP_top": 0.0373,
+   "dP_rand": -0.0053,
+   "diff": 0.0426,
+   "diff_pos": 0.7639,
+   "wilcoxon_p_recomputed": 1.321630782142516e-48,
+   "flip_top_n": 52,
+   "flip_top": 0.074,
+   "flip_rand_n": 54.0,
+   "flip_rand": 0.0768,
+   "prob_flip": 0.4693,
+   "prob_noflip": 0.6941,
+   "corr_prob_flip": -0.3251,
+   "dInt_top": 0.0642,
+   "dInt_rand": -0.0144,
+   "by_modality": {
+    "文本": {
+     "n": 589,
+     "diff": 0.0486
+    },
+    "视觉": {
+     "n": 40,
+     "diff": -0.0032
+    },
+    "音频": {
+     "n": 74,
+     "diff": 0.02
+    }
+   }
+  }
+ },
+ "stability": {
+  "audio_spearman_shift-1": 0.9991,
+  "audio_spearman_shift+1": 0.959,
+  "audio_top5_overlap_shift-1": 0.9985,
+  "audio_top5_overlap_shift+1": 0.9173,
+  "vision_spearman_shift-1": 0.9993,
+  "vision_spearman_shift+1": 0.9532,
+  "vision_top5_overlap_shift-1": 0.9981,
+  "vision_top5_overlap_shift+1": 0.9235,
+  "扰动σ0.01_符号一致率": 0.9998,
+  "扰动σ0.1_符号一致率": 0.9957,
+  "扰动σ0.5_符号一致率": 0.9679,
+  "扰动σ0.5_排名Spearman": 0.9462
+ },
+ "stability_constant_columns": [
+  "扰动σ0.01_符号一致率",
+  "扰动σ0.1_符号一致率",
+  "扰动σ0.5_符号一致率",
+  "扰动σ0.5_排名Spearman"
+ ],
+ "stability_json": {
+  "window_shift_spearman": [
+   0.9532,
+   0.9993
+  ],
+  "window_shift_top5_overlap": [
+   0.9173,
+   0.9985
+  ],
+  "noise_sign_agreement": {
+   "0.01": 0.9998,
+   "0.1": 0.9957,
+   "0.5": 0.9679
+  },
+  "noise_rank_spearman": {
+   "0.01": 0.9995,
+   "0.1": 0.9921,
+   "0.5": 0.9462
+  },
+  "is_training_seed_stability": false,
+  "note": "本项为模型解释稳定性（同一权重下的输入扰动/窗口平移），不是跨训练种子稳定性"
+ },
+ "sparsity": {
+  "文本_可评估词元数": 24.52,
+  "文本_保留关键词元数": 4.98,
+  "音频_可评估窗口数": 19.55,
+  "音频_保留关键窗口数": 4.79,
+  "视觉_可评估窗口数": 18.17,
+  "视觉_保留关键窗口数": 4.55
+ },
+ "dispersed": {
+  "文本_关键词元是否分散": 432,
+  "音频_关键窗口是否分散": 546,
+  "视觉_关键窗口是否分散": 491
+ },
+ "val_evidence": {
+  "rows": 10419,
+  "by_modality": {
+   "text": 3622,
+   "audio": 3488,
+   "vision": 3309
+  },
+  "direction": {
+   "抑制": {
+    "audio": 1653,
+    "text": 1482,
+    "vision": 1559
+   },
+   "支持": {
+    "audio": 1835,
+    "text": 2140,
+    "vision": 1750
+   }
+  },
+  "abs_mean": 0.0145,
+  "abs_max": 0.2613,
+  "stop_top5": 0.4749,
+  "stop_rank1": 0.3832
+ },
+ "att4": {
+  "n": 20,
+  "dist": {
+   "positive": 13,
+   "negative": 6,
+   "neutral": 1
+  },
+  "argmax_consistent": true,
+  "rowsum_maxdev": 1.000000000139778e-06,
+  "maxp_mean": 0.7207,
+  "maxp_median": 0.6915,
+  "maxp_sd_ddof0": 0.1959,
+  "maxp_sd_ddof1": 0.201,
+  "maxp_min": 0.3504,
+  "maxp_max": 0.997,
+  "n_high": 6,
+  "low_ids": [
+   "01",
+   "02"
+  ],
+  "int_mean": -0.0266,
+  "int_median": 0.2463,
+  "int_sd_ddof0": 0.9595,
+  "int_sd_ddof1": 0.9845,
+  "int_min": -2.5819,
+  "int_max": 1.2546,
+  "dominant": {
+   "文本": 16,
+   "视觉": 2,
+   "音频": 2
+  },
+  "review": {
+   "不支持": {
+    "negative": 1,
+    "neutral": 0,
+    "positive": 4
+   },
+   "人工回看支持": {
+    "negative": 4,
+    "neutral": 1,
+    "positive": 5
+   },
+   "无法确认": {
+    "negative": 0,
+    "neutral": 0,
+    "positive": 2
+   },
+   "部分支持": {
+    "negative": 1,
+    "neutral": 0,
+    "positive": 2
+   }
+  },
+  "class_intensity_sign_mismatch": [
+   "02"
+  ],
+  "per_sample": {
+   "01": {
+    "pred": "positive",
+    "maxp": 0.4772,
+    "gap": 0.0718,
+    "intensity": 0.2621,
+    "text": 0.1378,
+    "audio": -0.001,
+    "vision": -0.0181,
+    "dominant": "文本",
+    "review": "不支持"
+   },
+   "02": {
+    "pred": "positive",
+    "maxp": 0.3504,
+    "gap": 0.0084,
+    "intensity": -0.1833,
+    "text": 0.1306,
+    "audio": -0.0839,
+    "vision": -0.1327,
+    "dominant": "视觉",
+    "review": "无法确认"
+   },
+   "03": {
+    "pred": "negative",
+    "maxp": 0.6214,
+    "gap": 0.4089,
+    "intensity": -0.3829,
+    "text": 0.3651,
+    "audio": -0.0871,
+    "vision": 0.0421,
+    "dominant": "文本",
+    "review": "不支持"
+   },
+   "04": {
+    "pred": "positive",
+    "maxp": 0.5419,
+    "gap": 0.1799,
+    "intensity": 0.3215,
+    "text": -0.1666,
+    "audio": 0.3015,
+    "vision": 0.1372,
+    "dominant": "音频",
+    "review": "不支持"
+   },
+   "05": {
+    "pred": "positive",
+    "maxp": 0.7194,
+    "gap": 0.4808,
+    "intensity": 0.6135,
+    "text": 0.2304,
+    "audio": -0.0094,
+    "vision": 0.1222,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "06": {
+    "pred": "positive",
+    "maxp": 0.6104,
+    "gap": 0.2677,
+    "intensity": 0.6845,
+    "text": 0.2844,
+    "audio": -0.0311,
+    "vision": -0.1311,
+    "dominant": "文本",
+    "review": "部分支持"
+   },
+   "07": {
+    "pred": "positive",
+    "maxp": 0.9068,
+    "gap": 0.8219,
+    "intensity": 0.9758,
+    "text": 0.5342,
+    "audio": 0.0046,
+    "vision": 0.0148,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "08": {
+    "pred": "positive",
+    "maxp": 0.6637,
+    "gap": 0.3754,
+    "intensity": 0.3675,
+    "text": 0.4002,
+    "audio": -0.0524,
+    "vision": -0.1023,
+    "dominant": "文本",
+    "review": "不支持"
+   },
+   "09": {
+    "pred": "negative",
+    "maxp": 0.9892,
+    "gap": 0.9835,
+    "intensity": -1.7717,
+    "text": 0.7681,
+    "audio": -0.003,
+    "vision": 0.0012,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "10": {
+    "pred": "negative",
+    "maxp": 0.9386,
+    "gap": 0.8989,
+    "intensity": -0.9203,
+    "text": 0.7462,
+    "audio": -0.0272,
+    "vision": 0.0195,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "11": {
+    "pred": "negative",
+    "maxp": 0.8442,
+    "gap": 0.7493,
+    "intensity": -0.9123,
+    "text": 0.5816,
+    "audio": -0.0093,
+    "vision": -0.0032,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "12": {
+    "pred": "negative",
+    "maxp": 0.8329,
+    "gap": 0.7121,
+    "intensity": -0.9147,
+    "text": 0.5397,
+    "audio": -0.0418,
+    "vision": 0.0484,
+    "dominant": "文本",
+    "review": "部分支持"
+   },
+   "13": {
+    "pred": "positive",
+    "maxp": 0.5067,
+    "gap": 0.0779,
+    "intensity": 0.2035,
+    "text": 0.1865,
+    "audio": -0.0456,
+    "vision": 0.0,
+    "dominant": "文本",
+    "review": "无法确认"
+   },
+   "14": {
+    "pred": "positive",
+    "maxp": 0.6185,
+    "gap": 0.2744,
+    "intensity": 0.6845,
+    "text": 0.0094,
+    "audio": 0.0384,
+    "vision": 0.1702,
+    "dominant": "视觉",
+    "review": "人工回看支持"
+   },
+   "15": {
+    "pred": "positive",
+    "maxp": 0.9237,
+    "gap": 0.8618,
+    "intensity": 1.0277,
+    "text": 0.3525,
+    "audio": 0.048,
+    "vision": 0.0201,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "16": {
+    "pred": "negative",
+    "maxp": 0.997,
+    "gap": 0.9947,
+    "intensity": -2.5819,
+    "text": 0.7602,
+    "audio": -0.0009,
+    "vision": 0.0014,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "17": {
+    "pred": "positive",
+    "maxp": 0.9628,
+    "gap": 0.9286,
+    "intensity": 1.2546,
+    "text": 0.5537,
+    "audio": -0.0017,
+    "vision": 0.0089,
+    "dominant": "文本",
+    "review": "部分支持"
+   },
+   "18": {
+    "pred": "neutral",
+    "maxp": 0.5143,
+    "gap": 0.2307,
+    "intensity": -0.2453,
+    "text": 0.1104,
+    "audio": 0.055,
+    "vision": 0.0725,
+    "dominant": "文本",
+    "review": "人工回看支持"
+   },
+   "19": {
+    "pred": "positive",
+    "maxp": 0.5309,
+    "gap": 0.2098,
+    "intensity": 0.2304,
+    "text": 0.064,
+    "audio": 0.149,
+    "vision": 0.0523,
+    "dominant": "音频",
+    "review": "人工回看支持"
+   },
+   "20": {
+    "pred": "positive",
+    "maxp": 0.8648,
+    "gap": 0.7423,
+    "intensity": 0.755,
+    "text": 0.3918,
+    "audio": 0.0268,
+    "vision": 0.0379,
+    "dominant": "文本",
+    "review": "不支持"
+   }
+  },
+  "text": {
+   "cls_mean": 0.349,
+   "cls_pos": 0.95
+  },
+  "audio": {
+   "cls_mean": 0.0114,
+   "cls_pos": 0.35
+  },
+  "vision": {
+   "cls_mean": 0.0181,
+   "cls_pos": 0.7
+  }
+ },
+ "att4_evidence": {
+  "rows": 296,
+  "by_modality": {
+   "text": 100,
+   "audio": 100,
+   "vision": 96
+  },
+  "text_stop": 43
+ },
+ "keyframes_present": [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "09",
+  "10",
+  "11",
+  "12",
+  "14",
+  "15",
+  "16"
+ ],
+ "keyframes_png_count": 45
+}
