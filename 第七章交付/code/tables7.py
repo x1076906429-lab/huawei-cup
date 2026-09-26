@@ -85,3 +85,19 @@ ct = pd.crosstab(t5['预测类别'], t5['回看结论']).reindex(index=['负向'
 ct['合计'] = ct.sum(axis=1)
 ct['样本ID'] = [';'.join(f"{r['样本ID']}({r['回看结论']})" for _, r in t5[t5['预测类别'] == k].iterrows()) for k in ct.index]
 w(ct.reset_index(), '表7-6_附件4回看结论与预测类别交叉.csv')
+
+# 表7-3c 补充统计检验（正文 7.2.2、7.2.3、7.2.6 引用）
+from scipy.stats import rankdata, pearsonr, mannwhitneyu
+rows = []
+for K, g in f.groupby('K'):
+    d = g['ΔP_差(重要-随机)'].values; se = d.std(ddof=1) / np.sqrt(len(d))
+    nz = d[d != 0]; r = rankdata(np.abs(nz)); rb = (r[nz > 0].sum() - r[nz < 0].sum()) / r.sum()
+    pb = pearsonr(g.pred_prob_at_pred, g['预测翻转_topK'])
+    rows += [(f'K={K} 配对差中位数', round(float(np.median(d)), 4)), (f'K={K} 配对差均值95%CI下限', round(d.mean() - 1.96 * se, 4)),
+             (f'K={K} 配对差均值95%CI上限', round(d.mean() + 1.96 * se, 4)), (f'K={K} 配对秩二列相关rb', round(rb, 4)),
+             (f'K={K} 完整输入概率与翻转的点二列相关r', round(pb.statistic, 4)), (f'K={K} 点二列相关p', float(f'{pb.pvalue:.3g}'))]
+for col, lab in [('text_Δcls_raw', '文本Δcls'), ('pred_prob_at_pred', '预测类别概率')]:
+    rows.append((f'正确vs错误 {lab} Mann-Whitney p', float(f'{mannwhitneyu(c[c.correct][col], c[~c.correct][col]).pvalue:.3g}')))
+pr = pearsonr(P.max(1), p.text_contribution)
+rows += [('附件4 最大概率与文本Δcls Pearson r', round(pr.statistic, 4)), ('附件4 Pearson p', float(f'{pr.pvalue:.3g}'))]
+w(pd.DataFrame(rows, columns=['统计量', '取值']), '表7-3c_补充统计检验.csv')

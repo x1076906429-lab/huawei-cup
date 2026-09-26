@@ -8,7 +8,7 @@ from decimal import Decimal, ROUND_HALF_UP
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 D = os.path.join(ROOT, '第七章交付')
 body = open(os.path.join(D, '问题三第七章正文.md'), encoding='utf-8').read()
-txt = body.replace('−', '-')
+txt = body.split('## 本章参考文献')[0].replace('−', '-')  # 参考文献中的卷期页码、arXiv 号不属数据
 
 
 def hu(v, n):
